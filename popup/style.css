@@ -1,0 +1,50 @@
+.container {
+  padding: 16px;
+  margin: 0;
+}
+
+.file_upload_container {
+  margin-bottom: 16px;
+}
+
+#error_message {
+  color: red;
+  margin-top: 4px;
+  display: none;
+}
+
+#upload_txt_file {
+  display: none;
+}
+
+#upload_txt_label {
+  padding: 16px;
+  border: 1px dashed #6a9af5;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  min-width: 250px;
+  text-align: center;
+  display: block;
+  font-size: 18px;
+}
+
+#upload_txt_label:hover {
+  background-color: #6a9af5;
+  color: white;
+}
+
+#fill_button {
+  border: none;
+  background-color: #6a9af5;
+  border-radius: 8px;
+  transition: 0.3s;
+  color: white;
+  width: 100%;
+  padding: 4px 0;
+  font-size: 16px;
+}
+
+#fill_button:active {
+  transform: scale(0.92);
+}

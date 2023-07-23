@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fill deposit slip</title>
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body class="container">
+    <div class="file_upload_container">
+      <label for="upload_txt_file" id="upload_txt_label"> Browse for a .txt file </label>
+      <input type="file" name="upload_txt_file" id="upload_txt_file" style="display: none" accept=".txt" />
+      <span id="error_message">Error</span>
+    </div>
+    <button class="fill_button" id="fill_button">Fill</button>
+
+    <script src="./wasm/wasm_exec.js"></script>
+    <script src="./dist/fill_deposit_slips.mjs"></script>
+  </body>
+</html>

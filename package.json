@@ -1,0 +1,22 @@
+{
+  "name": "fill_deposit_slips",
+  "version": "1.0.0",
+  "description": "An extension to fill deposit slips for the bank",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chrome": "^0.0.241",
+    "@types/node": "^18.13.0",
+    "@typescript-eslint/eslint-plugin": "^6.1.0",
+    "@typescript-eslint/parser": "^6.1.0",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.8.0",
+    "prettier": "^3.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.6"
+  },
+  "scripts": {
+    "build": "vite build",
+    "generate_ts_types_from_go": "ts-node ./ts_scripts/generate_types_from_go.ts"
+  }
+}
